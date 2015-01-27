@@ -1,0 +1,24 @@
+<div id="container">
+
+    <div>
+
+        <a href="http://gurman-ufa.ru" target="_blank" ><img src="/images/logo.png" class="logo" alt="глобус гурман" /></a>
+        <a wl-submit="cart" href="#" class="basket"><span>{ sumStr < sumtrigger }</span></a>
+        <a wl-submit="info" href="#" class="info"></a>
+        <h1>{ sectionName }</h1>
+
+        <form action="">
+      <ul class="choice">
+          <li rv-each-product="currentSection" ><a wl-submit="details" href="#"><img rv-src="product.smallImage" alt="" /></a><p><a  wl-submit="details" rv-wl-data="product.id" wl-data-path="detailsShow" href="#">{ product.name }</a><span>{ product.price } руб</span></p><div class="number"><a rv-on-click="product.minus" href="#">-</a><input type="text" rv-value="product.quantity" readonly /><a rv-on-click="product.plus" href="#">+</a></div></li>
+            <div class="clear"></div>
+        </ul>
+        </form>
+
+    </div>
+
+    <div class="footer">
+          <a wl-submit="main" href="#" class="link-left-small"></a>
+            <a wl-submit="cart" href="#" class="link-right-big"><span>Заказать</span></a>
+       </div>
+
+</div>

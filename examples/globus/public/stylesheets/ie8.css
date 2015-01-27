@@ -1,0 +1,10 @@
+.slogan, #container, .number input, .number a, .delivery input, .delivery textarea, .scroll, .thanks, .double li a:hover, .number a:first-child, .scroll-top { behavior: url(css/PIE.htc); position: relative; }
+.footer { padding: 0px !important; }
+.footer .slogan { bottom: 30px !important; }
+
+.delivery { min-height: 190px; }
+
+.number a { top: 4px; }
+.number>a { right: -2px; }
+
+p { margin-bottom: 10px; }

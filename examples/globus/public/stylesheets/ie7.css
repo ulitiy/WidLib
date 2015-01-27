@@ -1,0 +1,4 @@
+#container, .sizes .small, .sizes .middle, .sizes .big, form.adress input[type="text"], input[type="submit"] { behavior: url(css/PIE.htc); position: relative; }
+.choice li a span {
+    font: 0.9em/1.2em Georgia,"Times New Roman",Times,serif;
+}

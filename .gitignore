@@ -1,0 +1,6 @@
+_SpecRunner.html
+.DS_Store
+.grunt
+node_modules
+spec/js/**/*
+js/**/*

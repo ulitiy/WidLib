@@ -1,0 +1,37 @@
+{
+  "name": "widlib",
+  "description": "Declarative js framework for interactive dialog applications.",
+  "version": "0.0.1",
+  "author": "Alexander Ulitin <1@interactiff.net>",
+  "main": "dist/widlib.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ulitiy/widlib"
+  },
+  "dependencies": {
+    "q": "~0.9.7",
+    "underscore": "~1.5.2",
+    "shoe": "~0.0.15",
+    "dnode": "~1.1.0",
+    "nodemailer": "~0.5.15"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-coffee-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-handlebars": "~0.6.0",
+    "browserify": "~2.36.1",
+    "grunt-browserify": "~1.2.11",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-nodemon": "~0.1.2",
+    "grunt-node-inspector": "~0.1.2",
+    "grunt-concurrent": "~0.4.2",
+    "grunt-contrib-compress": "~0.5.3"
+  }
+}

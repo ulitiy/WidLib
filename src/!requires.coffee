@@ -1,0 +1,5 @@
+shoe  = require 'shoe'
+dnode = require 'dnode'
+_ = require 'underscore'
+Q = require 'q'
+# $ = require 'jquery'
